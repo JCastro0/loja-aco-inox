@@ -1,0 +1,3 @@
+- Medusa v2 (2.22.7) em backend/, achatado a partir do template DTC (só apps/backend). Pacote renomeado para "backend", sem packageManager npm.
+- Redis real no Medusa (event bus, locking, workflow engine) em vez do fake em memória.
+- ESLint da raiz trata o backend; eslint.config.ts do template removido. Regras relaxadas (warn) só em backend/src/migration-scripts e backend/src/search.
