@@ -1,3 +1,9 @@
 packages:
   - backend
   - storefront
+allowBuilds:
+  '@medusajs/telemetry': false
+  '@swc/core': true
+  esbuild: true
+  msgpackr-extract: true
+  protobufjs: false
